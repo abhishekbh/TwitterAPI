@@ -115,6 +115,7 @@ ENDPOINTS = {
     'lists/update':                                         ('POST',   'api'),
 
     'media/upload':                                         ('POST',   'upload'),
+    'media/library/add':                                    ('POST',   'api'),
 
     'mutes/users/create':                                   ('POST',   'api'),
     'mutes/users/destroy':                                  ('POST',   'api'),

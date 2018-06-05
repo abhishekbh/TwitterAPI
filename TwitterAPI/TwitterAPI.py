@@ -133,6 +133,11 @@ class TwitterAPI(object):
             else:
                 data = None
             try:
+                print('--------------------------' + url )
+                if data and len(data) > 1:
+                    for x in data:
+                        print x
+                print('--------------------------')
                 r = session.request(
                     method,
                     url,
